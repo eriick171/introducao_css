@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+* {
+   font-size: 35px;
+}
+
+/* TAG < CLASS < ID */
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    background-color: green;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+    /*color: blue;*/
+    /*color: #294f6d;*/
+   /*color: rgb(46, 65, 114)*/
+   color: rgba(46, 65, 114, 44.7);
+}
+
+.description {
+    color: orange;
+    line-height:30px ; /* espaçamento da linha cima e baixo*/
+}
+
+.price {
+    color: blue;
+    font-weight:bold; /*peso da fonte ex:bold, italico. OBS: "price e descont" 
+    sao duas tag na mesma class, se inverte price pra baixo e descont pra cima 
+    o programa sempre vai ler o ultimo que nesse caso seria o "PRICE" 
+    entao a cor voltaria a ser AZUL*/
+}
+.descont {
+    color: rgb(11, 122, 11);
+}
+
+#favorite {
+    font-size: 35px;
+    color: gold ;
+    font-style:oblique;
+}
